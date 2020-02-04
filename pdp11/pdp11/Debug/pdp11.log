@@ -1,0 +1,6 @@
+﻿  win_gui.cpp
+C:\Users\mrwin\source\repos\pdp11\pdp11\win_gui.cpp(446,1): warning C4365: 'argument': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+C:\Users\mrwin\source\repos\pdp11\pdp11\win_gui.cpp(454,1): warning C4365: 'argument': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+C:\Users\mrwin\source\repos\pdp11\pdp11\win_gui.cpp(468,1): warning C4365: 'argument': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+C:\Users\mrwin\source\repos\pdp11\pdp11\win_gui.cpp(477,1): warning C4365: 'argument': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+  pdp11.vcxproj -> C:\Users\mrwin\source\repos\pdp11\Debug\pdp11.exe

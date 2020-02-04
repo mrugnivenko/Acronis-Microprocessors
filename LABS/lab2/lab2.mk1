@@ -1,0 +1,14 @@
+!define BLANK ""
+\\Mac\Home\Desktop\LABS\lab2\lab2.obj : \\Mac\Home\Desktop\LABS\lab2\lab2.c &
+.AUTODEPEND
+ cd \\Mac\Home\Desktop\LABS\lab2
+ *wcc386 lab2.c -i="C:\WATCOM/h" -w4 -e25 -zq -od -d2 -6r -bt=dos -fo=.obj -&
+mf
+
+\\Mac\Home\Desktop\LABS\lab2\lab2.exe : \\Mac\Home\Desktop\LABS\lab2\lab2.ob&
+j .AUTODEPEND
+ cd \\Mac\Home\Desktop\LABS\lab2
+ @%write lab2.lk1 FIL lab2.obj
+ @%append lab2.lk1 
+ *wlink name lab2 d all sys dos4g op m op maxe=25 op q op symf @lab2.lk1
+

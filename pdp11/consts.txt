@@ -1,0 +1,8 @@
+pdp11_memory_size = 200000
+pdp11_memory_size_sum = 200020
+VRAM_start = 074060
+VRAM_size = 040000
+ROM_start = 134060
+ROM_size = 041750
+IO_start = 176030
+IO_size = 001750

@@ -1,0 +1,1 @@
+del 1.log 2.log pdp_file.log log_file.txt 2.bin

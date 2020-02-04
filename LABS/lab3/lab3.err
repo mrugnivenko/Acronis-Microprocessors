@@ -1,0 +1,2 @@
+lab3.c(200): Warning! W202: Symbol 'old_segment' has been defined, but not referenced
+lab3.c(199): Warning! W202: Symbol 'old_offset' has been defined, but not referenced
